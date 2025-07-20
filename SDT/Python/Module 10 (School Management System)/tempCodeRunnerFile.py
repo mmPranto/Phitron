@@ -1,0 +1,2 @@
+
+chemistry = Subject("Chemistry",kabul)
