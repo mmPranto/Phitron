@@ -1,0 +1,20 @@
+CREATE TABLE Employee(
+	EmployeeId CHAR(4) PRIMARY KEY,
+    EmployeeName VARCHAR(50),
+    EmployeeSalary DOUBLE,
+    JoiningDate DATE
+);
+
+INSERT INTO Employee
+(EmployeeId,EmployeeName,EmployeeSalary,JoiningDate) VALUES('1001',"Karim",12000,'2025-06-25');
+
+INSERT INTO Employee
+(EmployeeId,EmployeeName,EmployeeSalary,JoiningDate) VALUES('1002',"Rahim",9000,'2025-07-02');
+
+
+SELECT * FROM programminghero.employee;
+
+DELETE FROM Employee
+WHERE EmployeeId = '1001';
+
+SET SQL_SAFE_UPDATES = 1;
