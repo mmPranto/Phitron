@@ -1,0 +1,26 @@
+1-------
+
+CREATE TABLE Employee
+(
+	EmpID CHAR(4),
+    EmpName Varchar(50) NOT NULL,
+    JoiningYear CHAR(4) NOT NULL,
+    Birthday DATE NOT NULL,
+    Designation VARCHAR(20) NOT NULL,
+    Salary VARCHAR(7) ,
+    CONSTRAINT pk_1 PRIMARY KEY(EmpId),
+    CONSTRAINT birth_date CHECK(YEAR(Birthday)<=2000)
+    
+);
+
+2--------
+
+CONSTRAINT pk-1 PRIMARY KEY(CourseId,University)
+
+
+3--------
+
+SELECT ____
+FROM _____
+LIMIT 10      or   LIMIT 59,10
+OFFSET 59
