@@ -1,0 +1,126 @@
+Assignment-1
+
+Ans: to the Q no -1
+
+CREATE TABLE Student
+(
+	student_id CHAR(4),
+    student_name VARCHAR(50),
+    student_phone CHAR(5),
+    student_address VARCHAR(60)
+    
+);
+
+CREATE TABLE Lirary
+(
+	book_id CHAR(5),
+    book_name VARCHAR(20),
+    student_who_hired CHAR(4)
+);
+
+CREATE TABLE FeesTable
+(
+	fees_id CHAR(5),
+    fees_amount DOUBLE,
+    student_who_paid_fees CHAR(4)
+);
+
+
+Ans: to the Q no -2
+
+Table student after creating table add constraint:
+
+ALTER TABLE Student
+ADD CONSTRAINT PRIMARY KEY(student_id);
+
+ALTER TABLE Student
+MODIFY student_name VARCHAR(50) NOT NULL;
+
+ALTER TABLE Student
+MODIFY student_phone CHAR(5) NOT NULL;
+
+ALTER TABLE Student
+MODIFY student_address VARCHAR(60) NOT NULL;
+
+Table Library after creating table add constraint:
+
+ALTER TABLE Library
+ADD CONSTRAINT PRIMARY KEY(book_id);
+
+ALTER TABLE Library
+MODIFY book_name VARCHAR(20) NOT NULL;
+
+ALTER TABLE Library
+ADD CONSTRAINT FOREIGN KEY(student_who_hired) REFERENCES Student(student_id);
+
+Table FeesTable after creating table add constraint:
+
+ALTER TABLE FeesTable
+ADD CONSTRAINT PRIMARY KEY(fees_id);
+
+ALTER TABLE FeesTable
+MODIFY fees_amount DOUBLE NOT NULL;
+
+ALTER TABLE FeesTable
+ADD CONSTRAINT FOREIGN KEY(student_who_paid_fees) REFERENCES Student(student_id);
+
+Ans:to the Q no-3
+
+Data : Data is Raw thing.
+In example : name,age,salary is write in a page that is
+		Suppose rahim,25,1000 write in different position in a page.
+		Who write this data without him nobody cannot use this data properly.
+
+Information: When data is show in a organized way that is called information
+Example: 
+
+
+
+
+
+
+	Here it can be seen that all data is in organized way that is called information
+
+Ans: to The Q no :4
+
+In MySql update and delete query wasn’t executing because SET SQL_SAFE_UPDATES = 1;  . When this is 1 anything cannot possible update but when you set SET SQL_SAFE_UPDATES = 0; after that your update or delete query will be execute. 
+
+Ans: to The Q No - 5
+
+SELECT DISTINCT Department
+FROM Employee;
+
+Ans:  to the Q NO -6
+
+SELECT LastName 
+FROM Employee
+ORDER BY age DESC;
+
+Ans: to the Q no : 7
+
+SELECT LastName
+FROM Employee
+WHERE Age>30 and Department='Marketing';
+
+Ans: to the Q No : 8
+
+SELECT *
+FROM Employee;
+
+Ans: to the Q No : 9
+
+SELECT *
+FROM Employee
+WHERE FirstName Like '%son%' or LastName Like '%son%';
+
+Ans: to The Q No : 10
+
+SELECT *
+FROM Employee
+WHERE Department = 'Engineering';
+
+
+
+
+
+
