@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(213, 213, 213);
+    padding: 10px;
+}
+
+.logo{
+    width: 80px;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.menu-container{
+    display: flex;
+    gap: 15px;
+}
+
+.banner-img{
+    width: 350px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    /* background-image: url('images/background.avif'); */
+    /* color: white; */
+}
+
+.banner-left{
+    width: 400px;
+}
+
+.btn{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hire-btn{
+    background-color: rgb(47, 30, 64);
+}
+.project-btn{
+    background-color: rgb(19,104,201);
+}
+
+.title{
+    font-size: 45px;
+}
+
+.service-container{
+    margin-top: 30px;
+}
+.service-title{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+
+
+}
+.service-card{
+    width: 300px;
+    height: 450px;
+    /* border: 1px solid gray; */
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px;
+}
+.service-img{
+    width: 250px;
+}
+.service-card-btn{
+    padding: 15px 25px;
+    background-color: gray;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    /* text-decoration: none; */
+    /* font-weight: bolder; */
+}
+.service-description{
+    margin: 10px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact-us{
+    padding: 50px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 4px 4px 8px gray;
+    /* width: 75%;
+    margin: auto; */
+}
+.input-box{
+    padding: 15px;;
+    width: 50%;
+    margin-top: 10px;
+}
+.message{
+    width: 40%;
+    height: 100px;
+    margin-top: 15px;
+}
+.submit-btn{
+    width: 25%;
+    padding: 15px;
+    background-color: skyblue;
+    color: brown;
+    border: none;
+    margin-top: 20px;
+}
