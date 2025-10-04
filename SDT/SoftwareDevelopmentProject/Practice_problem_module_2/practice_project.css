@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url(practice/background.png);
+}
+nav{
+    display:flex;
+    justify-content: space-around; 
+    /* align-items: center; */
+    padding: 20px;
+    /* background-color: blue; */
+}
+.logo{
+    width: 80px;
+}
+.menu-container{
+    display: flex;
+    gap: 60px;
+    padding-top: 25px;
+    list-style: none;
+    border: none;
+    font-size: 20px;
+    color: orangered; 
+}
+.banner-img{
+    width: 350px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.banner-left{
+    width: 400px;
+}
+.btn{
+    padding: 10px 10px;
+    border: None;
+    border-radius: 3.5px;
+    background-color: orange;
+    font-size: 12.5px;
+}
+.moto{
+    color: orange;
+    font-size: 25px;
+    font-weight: 500;
+}
+.title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:  white;
+    /* font-family: "Inter"; */
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 1000;
+    /* text-align: center; */
+}
+.btn{
+    margin-left: 130px;
+}
+.banner-bottom{
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.icon{
+    width: auto;
+}
+.services{
+    text-align: center;
+}
+.title_2{
+    font-family: "Arial",Sans-serif;
+    font-weight: 550 ;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.description{
+    font-family: "Arial",Sans-serif;
+    padding-bottom: 50px;
+}
+.different-service_1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.different-service_2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.specific{
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 35px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+}
+.specifiction-title{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Arial", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.specifiction-picture{
+    padding-bottom: 20px;
+}
+.hire-us{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn_2{
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    border: none;
+}
+#hire-title{
+    font-family: "Arial", sans-serif;
+    font-weight: 550;
+    padding: 10px 0px;
+}
+#hire-description{
+    font-family: "Arial", sans-serif;
+    padding: 10px 0px;
+}
+.phone{
+    display: flex;
+    padding: 10px 0px;
+}
+#text{
+    padding-left: 10px;
+    padding-top: 13px;
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+}
+.address{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 5px 0px;
+}
+.last-step{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 60px;
+    background-color: black;
+    color: gray;
+    font-family: "Arial", sans-serif;
+}
+#footer_1{
+    display: flex;
+}
+#title_3{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+#get{
+    font-size: 20px;
+}
+#box{
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+#Learn{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media only screen and (min-width:400px) and (max-width:767px){
+    body{
+        background-color: None;
+    }
+}
